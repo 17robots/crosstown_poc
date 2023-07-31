@@ -1,0 +1,9 @@
+[workspace]
+members = ["events", "subscriber", "publisher"]
+resolver = "2"
+
+[workspace.dependencies]
+borsh = "0.10.3"
+borsh-derive = "0.10.3"
+crosstown_bus = "0.6.0"
+
